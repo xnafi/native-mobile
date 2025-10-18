@@ -1,5 +1,6 @@
 import { View, Text } from "react-native";
 import React from "react";
+import MobileUI from "../components/Home";
 
 const home = () => {
   return (
@@ -11,7 +12,7 @@ const home = () => {
       }}
       className="flex-1 flex-col justify-center items-center w-full"
     >
-      <Text className="text-5xl">home</Text>
+      <MobileUI />
     </View>
   );
 };
